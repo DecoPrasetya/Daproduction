@@ -2,18 +2,18 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 
-import sma from '../style/imgSekolah/sma.jpg'
-import smp from '../style/imgSekolah/smp.jpg'
-import sd from '../style/imgSekolah/sd.jpg'
-import tk from '../style/imgSekolah/tk.jpg'
+import sma from '../assets/imgSekolah/sma.jpg'
+import smp from '../assets/imgSekolah/smp.jpg'
+import sd from '../assets/imgSekolah/sd.jpg'
+import tk from '../assets/imgSekolah/tk.jpg'
 
 
-import porkot2020 from '../style/imgExperience/porkot2020.jpg'
-import sparingSmp14 from '../style/imgExperience/sparingSmp14.jpg'
-import sparingSmpBabatan from '../style/imgExperience/sparingSmpBabatan.jpg'
-import animasi from '../style/imgExperience/animasi.jpg'
-import bandkelas from '../style/imgExperience/bandKelas.jpg'
-import berlatihBand from '../style/imgExperience/berlatihBand.jpg'
+import porkot2020 from '../assets/imgExperience/porkot2020.jpg'
+import sparingSmp14 from '../assets/imgExperience/sparingSmp14.jpg'
+import sparingSmpBabatan from '../assets/imgExperience/sparingSmpBabatan.jpg'
+import animasi from '../assets/imgExperience/animasi.jpg'
+import bandkelas from '../assets/imgExperience/bandKelas.jpg'
+import berlatihBand from '../assets/imgExperience/berlatihBand.jpg'
 
 
 const section = () => {
@@ -34,7 +34,7 @@ const section = () => {
                     <li>Alamat : Patihan, Kota Madiun</li>
                     <li>Email : decoakbar30@gmail.com</li>
                 </ul>
-                <p>Bonjour! dalam bahasa French yang berarti Halo.<br></br>Perkanalkan nama saya Deco Prasetya bisa dipanggil Deco atau Dap. Saya lahir tanggal 30 Desember 2006 di Kota Madiun. Saya adalah anak pertama dari 2 bersaudara dari pasangan bernama Nur Buanawati dan Rony Prasteya.<br></br>Pendidikan merupakan suatu hal yang sangat penting buat saya. Ketika banyak teman saya yang memilih untuk langsung bekerja setelah kuliah, saya lebih memilih untuk melanjutkan pendidikan selama orang tua masih mampu untuk membiayai. Menurut sama menguasai suatu disiplin ilmu merupakan hal yang sangat ingin saya lakukan.</p>
+                <p>Bonjour! dalam bahasa French yang berarti Halo.<br></br>Perkenalkan nama saya Deco Prasetya bisa dipanggil Deco atau Dap. Saya lahir tanggal 30 Desember 2006 di Kota Madiun. Saya adalah anak pertama dari 2 bersaudara dari pasangan bernama Nur Buanawati dan Rony Prasetya.<br></br>Pendidikan merupakan suatu hal yang sangat penting buat saya. Ketika banyak teman saya yang memilih untuk langsung bekerja setelah kuliah, saya lebih memilih untuk melanjutkan pendidikan selama orang tua masih mampu untuk membiayai. Menurut sama menguasai suatu disiplin ilmu merupakan hal yang sangat ingin saya lakukan.</p>
             </div>
             <div className="pendidikan head">
                 <h3>PENDIDIKAN</h3>
@@ -109,27 +109,27 @@ const section = () => {
 const exArray = [
     {
         img : porkot2020,
-        ket : 'abc',
+        ket : 'Mengikuti perlobaan kota (PORKOT) pada tahun 2020, merupakan pertandingan basket pertama yang saya ikuti',
     },
     {
         img : sparingSmp14,
-        ket : 'abc',
+        ket : 'Kegiatan sparing dengan SPMN 14, sparing untuk menambah relasi dan persaingan antar sekolah',
     },
     {
         img : sparingSmpBabatan,
-        ket : 'abc',
+        ket : 'dokumentasi tim saat menuju SMP Babatan untuk melakukan sparing',
     },
     {
         img : animasi,
-        ket : 'abc',
+        ket : 'Dalam rangka HUT SMPN 3, saya membuat animasi singkat dalam rangka menyambut HUT tersebut',
     },
     {
         img : bandkelas,
-        ket : 'abc',
+        ket : 'Perform di acara perpisahan kelas dengan band kelas (awal mula saya terjun serius di dunia musik terutama band)',
     },
     {
         img : berlatihBand,
-        ket : 'abc',
+        ket : 'bersama personil lain dalam band kelas untuk memulai latian',
     },
    
 ]

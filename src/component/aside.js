@@ -1,4 +1,4 @@
-import photo from '../style/photo_profile.jpg'
+import photo from '../assets/photo_profile.jpg'
 
 const aside = () => {
     return(
