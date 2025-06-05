@@ -1,3 +1,4 @@
+
 // library Slick
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
@@ -46,7 +47,7 @@ const section = () => {
     }
     return (
         <section>
-            <div className="biodata head">
+            <div id="biodata" className="biodata head">
                 <h3>BIODATA</h3>
                 <ul>
                     <li> Nama Lengkap : Deco Akbar Prasteya</li>
@@ -56,7 +57,7 @@ const section = () => {
                 </ul>
                 <p>Bonjour! dalam bahasa French yang berarti Halo.<br></br>Perkenalkan nama saya Deco Prasetya bisa dipanggil Deco atau Dap. Saya lahir tanggal 30 Desember 2006 di Kota Madiun. Saya adalah anak pertama dari 2 bersaudara dari pasangan bernama Nur Buanawati dan Rony Prasetya.<br></br>Pendidikan merupakan suatu hal yang sangat penting buat saya. Ketika banyak teman saya yang memilih untuk langsung bekerja setelah kuliah, saya lebih memilih untuk melanjutkan pendidikan selama orang tua masih mampu untuk membiayai. Menurut sama menguasai suatu disiplin ilmu merupakan hal yang sangat ingin saya lakukan.</p>
             </div>
-            <div className="pendidikan head">
+            <div id="pendidikan" className="pendidikan head">
                 <h3>PENDIDIKAN</h3>
                 <ul>
                     <li>2025 | SMA Negeri 1 Madiun</li>
@@ -85,7 +86,7 @@ const section = () => {
                     <small>Taman Kanak-Kanak</small>
                 </div>
             </div>
-            <div className='pengalaman head'>
+            <div id="pengalaman" className='pengalaman head'>
                 <h3>PENGALAMAN</h3>
                 <div className='peng-smp'>
                     <h4>Sekolah Menengah Pertama</h4>
@@ -139,7 +140,7 @@ const section = () => {
                     </div>
                 </div>
             </div>
-            <div className="motivasi head">
+            <div id="motivasi" className="motivasi head">
                 <h4>MOTIVASI</h4>
                 <p>
                     Dunia *software development* bagi saya adalah petualangan tanpa akhir di mana setiap tantangan menjadi kesempatan untuk tumbuh. Saya terinspirasi oleh kekuatan kode yang bisa mengubah ide-ide abstrak menjadi solusi nyata, memudahkan kehidupan, dan bahkan menggerakkan inovasi global. Passion saya dalam pemrograman tidak hanya tentang menguasai bahasa atau teknologi tertentu, melainkan tentang bagaimana saya bisa menggunakan keterampilan ini untuk menciptakan dampak positif—baik bagi diri sendiri, orang lain, maupun masyarakat luas.<br></br>

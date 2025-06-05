@@ -13,8 +13,6 @@ const aside = () => {
                 <a href="https://www.tiktok.com/@decoprasertya"><button className="tiktok" >TIKTOK</button></a>
                 <a href="https://wa.me/628960312041"><button className="wa" >WHATSAPP</button></a>
             </ul>
-
-            <h1>WEB INI MASIH DALAM PENGEMBANGAN!</h1>
         </aside>
     )
 }
